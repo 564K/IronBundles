@@ -15,7 +15,9 @@ public class IronBundles implements ModInitializer {
 
 	public static final Item DIAMOND_BUNDLE = register("diamond_bundle", new CustomBundleItem(new Item.Settings().maxCount(1).group(ItemGroup.TOOLS), 512));
 
-	public static final Item NETHERITE_BUNDLE = register("netherite_bundle", new CustomBundleItem(new Item.Settings().maxCount(1).group(ItemGroup.TOOLS), 1024));
+	public static final Item NETHERITE_BUNDLE = register("netherite_bundle", new CustomBundleItem(new Item.Settings().maxCount(1).group(ItemGroup.TOOLS), 512));
+	
+	public static final Item AMETHYST_BUNDLE = register("amethyst_bundle", new CustomBundleItem(new Item.Settings().maxCount(1).group(ItemGroup.TOOLS),1024));
 
 	@Override
 	public void onInitialize() {
